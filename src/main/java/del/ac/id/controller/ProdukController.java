@@ -61,4 +61,7 @@ public class ProdukController {
 		produkService.deleteProduks(produk_id);;
 		return new ResponseEntity<String>(HttpStatus.OK);
 	}
+
+	@PutMapping
 }
+
